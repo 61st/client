@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="map_marker_setter">
+    <Package name="main">
+        <!-- Functions -->
+        <Key ID="STR_LXIMC_map_marker_setter_main_invalidName">
+            <English>The chosen name is invalid!</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_invalidSettings">
+            <English>The given settings are invalid!</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_wrongFormatSettings">
+            <English>The given settings are in the wrong format!</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_overwriteConfirmation">
+            <English>Are you sure you want to overwrite profile '%1'?</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_createImportProfileTitle">
+            <English>CREATE/IMPORT PROFILE</English>
+        </Key>
+
+        <Key ID="STR_LXIMC_map_marker_setter_main_profileName">
+            <English>Profile name:</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_profileNameDesc">
+            <English>Allows you to store multiple profiles. Whitespaces will be removed. Profile names are case insensitive. DO NOT USE PUNCTUATION MARKS.</English>
+        </Key>
+
+        <Key ID="STR_LXIMC_map_marker_setter_main_profileSettings">
+            <English>Profile settings:</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_profileSettingsDesc">
+            <English>Paste profile here, if you are importing. Leave blank if you are creating a new profile.</English>
+        </Key>
+
+        <Key ID="STR_LXIMC_map_marker_setter_main_deleteConfirmation">
+            <English>Are you sure you want to delete profile '%1'?</English>
+        </Key>
+
+        <Key ID="STR_LXIMC_map_marker_setter_main_invalidProfile">
+            <English>No profile was chosen!</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_aceClipboardDisabled">
+            <English>ACE clipboard is disabled!</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_profileCopiedClipboard">
+            <English>Profile '%1' has been copied to your clipboard.</English>
+        </Key>
+
+        <Key ID="STR_LXIMC_map_marker_setter_main_noSettingsLoaded">
+            <English>No settings were loaded!</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_settingsLoadedFromProfile">
+            <English>Loaded %1 settings from profile '%2'.</English>
+        </Key>
+
+        <Key ID="STR_LXIMC_map_marker_setter_main_loadConfirmation">
+            <English>Are you sure you want to load from profile '%1'?</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_saveConfirmation">
+            <English>Are you sure you want to save to profile '%1'?</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_undoConfirmation">
+            <English>Are you sure you want to undo last map marker load?</English>
+        </Key>
+
+        <Key ID="STR_LXIMC_map_marker_setter_main_noSettingsSaved">
+            <English>No settings were saved!</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_settingsSavedToProfile">
+            <English>Saved %1 settings to profile '%2'.</English>
+        </Key>
+
+        <Key ID="STR_LXIMC_map_marker_setter_main_deleteProfileTitle">
+            <English>DELETE PROFILE</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_exportProfileTitle">
+            <English>EXPORT PROFILE</English>
+        </Key>
+
+        <Key ID="STR_LXIMC_map_marker_setter_main_deleteProfileDesc">
+            <English>Allows you to select a profile to delete.</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_exportProfileDesc">
+            <English>Allows you to select a profile to export to the clipboard.</English>
+        </Key>
+
+        <Key ID="STR_LXIMC_map_marker_setter_main_deleteProfile">
+            <English>Delete Profile</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_createImportProfile">
+            <English>Create/Import Profile</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_exportProfile">
+            <English>Export Profile</English>
+        </Key>
+
+        <!-- ACE interactions -->
+        <Key ID="STR_LXIMC_map_marker_setter_main_mapMarkerSetter">
+            <English>Map Marker Setter</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_all">
+            <English>All</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_undo">
+            <English>Undo</English>
+        </Key>
+
+        <!-- Settings -->
+        <Key ID="STR_LXIMC_map_marker_setter_main_functionalityCategory">
+            <English>Functionality</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_profilesCategory">
+            <English>Profiles</English>
+        </Key>
+
+        <Key ID="STR_LXIMC_map_marker_setter_main_enable">
+            <English>Enable</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_enableDesc">
+            <English>Enables both saving and loading actions.</English>
+        </Key>
+
+        <Key ID="STR_LXIMC_map_marker_setter_main_askSaveConfirmation">
+            <English>Ask Save Confirmation</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_askSaveConfirmationDesc">
+            <English>Asks the player for confirmation before saving a profile.</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_askLoadConfirmation">
+            <English>Ask Load Confirmation</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_askLoadConfirmationDesc">
+            <English>Asks the player for confirmation before loading a profile.</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_askUndoConfirmation">
+            <English>Ask Undo Confirmation</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_askUndoConfirmationDesc">
+            <English>Asks the player for confirmation before undoing last map marker load.</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_askDeleteConfirmation">
+            <English>Ask Delete Confirmation</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_askDeleteConfirmationDesc">
+            <English>Asks the player for confirmation before deleting a profile.</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_askOverwriteConfirmation">
+            <English>Ask Overwrite Confirmation</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_askOverwriteConfirmationDesc">
+            <English>Asks the player for confirmation before overwriting a profile when importing/making a new profile.</English>
+        </Key>
+
+        <Key ID="STR_LXIMC_map_marker_setter_main_loadColorIcon">
+            <English>Icon Color in Messages</English>
+        </Key>
+        <Key ID="STR_LXIMC_map_marker_setter_main_loadColorIconDesc">
+            <English>Sets the icons in the messages to this color.</English>
+        </Key>
+    </Package>
+</Project>

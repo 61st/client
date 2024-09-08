@@ -6,13 +6,18 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"lxim_main"};
+        requiredAddons[] = {
+            "lximc_main"
+        };
+        authorUrl = URL;
         author = QAUTHOR;
-        authors[] = {"Timi007"};
-        url = URL;
+        authors[] = {
+            "johnb43"
+        };
         VERSION_CONFIG;
     };
 };
 
-#include "CfgWorlds.hpp"
+#include "CfgEventHandlers.hpp"
 #include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"
