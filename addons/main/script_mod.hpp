@@ -2,7 +2,7 @@
 #define PREFIX lximc
 #define QPREFIX "lximc"
 
-#define AUTHOR LXIMC
+#define AUTHOR 61st
 #define QAUTHOR QUOTE(AUTHOR)
 #define LOGO_PATH QUOTE(z\lximc\addons\main\data\logo_512.paa)
 #define URL "https://www.arma.wiki/"
